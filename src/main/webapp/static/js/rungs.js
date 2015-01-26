@@ -1,12 +1,9 @@
-var model = {
-	player: "Simon",
-	points: 15
-};
-
-console.log("Hello");
-
 var rungsApp = angular.module("rungsApp", []);
 
-rungsApp.controller("rungsController", function ($scope){
-	$scope.positions = model;
-});
+rungsApp.controller("rungsController", ['$scope', '$http', function ($scope, $http){
+	$http.get("../../data").success(function(data) {
+		console.log(data);
+		$scope.positions = data;
+	});
+}]);
+
