@@ -1,0 +1,46 @@
+body {
+  background-color: #ffffff;
+}
+h2 {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: #425968;
+}
+hr {
+  height: 7px;
+  background-color: #780046;
+  width: 100%;
+  margin: 0;
+  display: block;
+  border: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+li {
+  background-color: #a5cace;
+  margin-bottom: 10px;
+  width: 192px;
+}
+span {
+  color: #425968;
+  padding: 10px 0 10px 25px;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+}
+.globalRankingTable {
+  float: right;
+}
+.mainContent {
+  margin: auto;
+  text-align: center;
+  float: left;
+}
+.contentContainer {
+  margin: auto;
+  width: 700px;
+}

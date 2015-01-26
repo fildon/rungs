@@ -11,6 +11,6 @@ public class HomeController {
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView displayHome() {
         System.out.println("Hey");
-        return new ModelAndView("home", null);
+        return new ModelAndView("index", null);
     }
 }
