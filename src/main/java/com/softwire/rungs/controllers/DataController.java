@@ -6,9 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class MainController {
-
-    @RequestMapping("/")
+public class DataController {
+    @RequestMapping("/data")
     public @ResponseBody StatisticsModel displayHome() {
         StatisticsModel statisticsModel = new StatisticsModel();
         statisticsModel.p1 = "Simon";

@@ -16,7 +16,7 @@ import java.util.Arrays;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "com.softwire.rungs")
-public class RungsConfig extends WebMvcConfigurerAdapter {
+public class ApplicationConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry)
