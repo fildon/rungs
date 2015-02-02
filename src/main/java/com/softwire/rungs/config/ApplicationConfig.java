@@ -36,4 +36,13 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter {
                 Arrays.asList(jsonMessageConverter())));
         return messageConverters;
     }
+//
+//    @Bean
+//    public PropertyPlaceholderConfigurer propertyPlaceholderConfigurer() {
+//        PropertyPlaceholderConfigurer propertyPlaceholderConfigurer = new PropertyPlaceholderConfigurer();
+//        propertyPlaceholderConfigurer.setLocation(new ClassPathResource("properties/database.properties"));
+//        return propertyPlaceholderConfigurer;
+//    }
+
+
 }

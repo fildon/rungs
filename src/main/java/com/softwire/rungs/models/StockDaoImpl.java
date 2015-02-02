@@ -19,8 +19,6 @@ public class StockDaoImpl extends HibernateDaoSupport implements StockDao{
     }
 
     public Stock findByStockCode(String stockCode){
-//        getHibernateTemplate().getSessionFactory().getCurrentSession().setFlushMode(FlushMode.AUTO);
-
         List list = getHibernateTemplate().find(
                 "from Stock where stockCode=?",stockCode
         );
