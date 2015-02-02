@@ -14,6 +14,5 @@
         <property name="stockName" type="string">
             <column name="STOCK_NAME" length="20" not-null="true" unique="true" />
         </property>
-
     </class>
 </hibernate-mapping>
